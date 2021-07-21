@@ -13,7 +13,7 @@ class Ship(Sprite):
         self.ai_settings = ai_settings
         # 加载飞船图像并获得其外接矩形
         # pygame.image.load(内部是加载图片的路径)
-        self.image = pygame.image.load('/Users/huanghui/python_work/Airplane-game-python-/images/ship.bmp')
+        self.image = pygame.image.load('/Users/huanghui/python_work/Airplane-game/images/ship.bmp')
 
         # get_rect()是一个处理矩形的方法，也就是飞机贴图————这个处理方法就是获取这个贴图的坐标
         # self.rect.left为 获取贴图左侧坐标
